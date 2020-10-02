@@ -86,7 +86,7 @@ end
 end
     # is full return true
     def full? 
-      @board.all?{|filled| filled != " "}
+      @board.all?{|spaces| spaces != " "}
       # if filled spaces is !=(not equal to " " means its true else false)
     end
 
